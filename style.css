@@ -1,0 +1,54 @@
+.homecontent {
+    border: 5px solid black;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 4px 4px 8px 0.5px rgba(0,0,0,0.3);
+}
+
+/* outer background bar */
+.loadingpbar {
+    width: 97%;
+    height:200px;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+/* the inner moving bar */
+
+.pbar1 {
+    width: 0% ;
+    height: 100%;
+    background-color: goldenrod;
+    width: 0%;
+    transition: width 1s ease-in-out;
+}
+/* dimensions for alignment are 1680px 1680px */
+/* og height is 800px */
+
+.nav-bar ul {
+    list-style-type: none;
+    background-color: black;
+    padding: 15px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding:15px;
+    display: block;
+    text-align: center;
+}
+
+.nav-bar a:hover {
+    background-color: white;
+}
+
+#homeb a:hover {
+    color:black;
+}
